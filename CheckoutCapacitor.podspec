@@ -12,6 +12,10 @@ Pod::Spec.new do |s|
   s.source = { :git => package['repository']['url'], :tag => s.version.to_s }
   s.source_files = 'ios/Sources/**/*.{swift,h,m,c,cc,mm,cpp}'
   s.ios.deployment_target = '15.0'
+  s.swift_version = '5.9'
+
   s.dependency 'Capacitor'
-  s.swift_version = '5.1'
+  # Keep in step with the Checkout-IOS version in Package.swift.
+  checkout_ios_version = '1.0.7'
+  s.dependency 'Checkout-IOS', checkout_ios_version
 end

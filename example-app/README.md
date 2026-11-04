@@ -1,12 +1,4 @@
-## Created with Capacitor Create App
+# checkout-capacitor example
 
-This app was created using [`@capacitor/create-app`](https://github.com/ionic-team/create-capacitor-app),
-and comes with a very minimal shell for building an app.
-
-### Running this example
-
-To run the provided example, you can use `npm start` command.
-
-```bash
-npm start
-```
+The example app for `checkout-capacitor`. How to run it and add your sandbox keys is in the
+[repository README](../README.md#example-app).

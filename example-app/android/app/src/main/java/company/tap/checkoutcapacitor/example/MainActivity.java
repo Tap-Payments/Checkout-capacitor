@@ -1,4 +1,4 @@
-package com.example.plugin;
+package company.tap.checkoutcapacitor.example;
 
 import com.getcapacitor.BridgeActivity;
 

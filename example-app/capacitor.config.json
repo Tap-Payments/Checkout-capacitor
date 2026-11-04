@@ -1,10 +1,5 @@
 {
-  "appId": "com.example.plugin",
-  "appName": "example-app",
-  "webDir": "dist",
-  "plugins": {
-    "SplashScreen": {
-      "launchAutoHide": false
-    }
-  }
+  "appId": "company.tap.checkoutcapacitor.example",
+  "appName": "Tap Checkout",
+  "webDir": "dist"
 }
